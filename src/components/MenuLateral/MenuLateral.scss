@@ -1,0 +1,19 @@
+@import '../../scss/index.scss';
+
+.menu-lateral{
+    position: fixed;
+    left: 0;
+    top: 61.5px;
+    height: 100vh;
+    overflow: auto;
+
+    &_link{
+        &:hover{
+        text-decoration: none;
+        }
+        /* vertical-align: para que el icono quede al mismo nivel*/
+        &_icon{
+            vertical-align: 0.125em !important;
+        }
+    }
+}

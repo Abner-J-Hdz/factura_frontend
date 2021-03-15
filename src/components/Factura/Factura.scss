@@ -1,0 +1,30 @@
+.factura{
+  background-color: #fff;
+  padding: 5px;
+  &-list__header{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;//se vallan a los lados
+      //justify-content: flex-end;//para que el objeto se valla al final
+      margin-bottom: 20px;
+  }
+}
+
+
+.add-factura{
+  padding: 10px;
+  
+  .add-factura_form{
+
+  }
+}
+
+
+table {
+   width: 100%;
+}
+th, td {
+   width: 20%;
+   text-align: left;
+   vertical-align: top;
+}
